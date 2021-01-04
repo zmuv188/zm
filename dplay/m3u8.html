@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Dp视频解析</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<meta name="referrer" content="never">
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" id="viewport" name="viewport">
+</head>
+<body marginwidth="0" marginheight="0" style="position:absolute;width:100%;top:0;bottom:0;backgroung:#000">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zmuv188/zm/dplay/DPlayer.min.css">
+<script src="https://cdn.jsdelivr.net/gh/zmuv188/zm/dplay/jquery.min.js"></script>
+<div id="ldgplayer" style="width:100%;height:100%"></div>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zmuv188/zm/dplay/hls.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/zmuv188/zm/dplay/DPlayer.min.js" charset="utf-8"></script>
+<script>
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+var ldgurl = GetQueryString("url");
+ldgurl=ldgurl.replace('http://','https://');
+ldgurl=ldgurl.replace('http://','https://');
+  if(ldgurl.indexOf("/share/")>0)
+ {
+   location.href=ldgurl;
+  }else
+  {
+		var isPhone = navigator.userAgent.match(/iPad|iPhone|Android|Linux|iPod/i) != null;
+        if (isPhone) {
+            var HTML = '<video src="'+ldgurl+'" controls="controls" poster="https://cdn.jsdelivr.net/gh/zmuv188/zm/dplay/logo.gif" autoplay="autoplay" width="100%" height="100%"></video>';
+            document.getElementById("ldgplayer").innerHTML = HTML;
+        } else {
+			var dp = new DPlayer({
+				element: document.getElementById('ldgplayer'),
+				autoplay: true,
+				screenshot: true,
+				video: {
+					url: ldgurl,
+					type: 'hls'
+				}
+			});
+		}
+  }
+</script>
+
+</body>
+</html>
