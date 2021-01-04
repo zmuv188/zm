@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* all  */
-body{ background: #FFFFFF; color: #666;}
+body{ background: e8e8e8; color: #666;}
 
 /* text */
 a,h1, h2, h3, h4, h5, h6{ color: #333333;}
@@ -124,7 +124,7 @@ a:hover{ color: #FF9900;}
 	.m-top-line-dot:before{ border-top: 1px dotted #EEEEEE;}
 	.m-bottom-line-dot:before{ border-bottom: 1px dotted #EEEEEE;}
 }
-/*¹ö¶¯¹ã¸æ*/
+/*Â¹Ã¶Â¶Â¯Â¹Ã£Â¸Ã¦*/
 #gongao{
 	border: 1px solid #E6D8B9;
 	overflow:hidden;
