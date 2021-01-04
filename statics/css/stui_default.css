@@ -45,6 +45,7 @@ body{ padding-top: 80px}
 .stui-content__detail .data li{float:left;margin-right:20px}
 .stui-content__detail .desc{padding-left:42px}
 .stui-content__detail .desc .left{margin-left:-42px}
+.stui-content__tag a{ display: inline-block; line-height: 20px; padding: 2px 10px; margin-left: 5px; border: 1px solid rgba(0,0,0,.1); font-size: 12px; border-radius: 15px;}
 
 /* player */
 .stui-player__video{ background-color: #000}
