@@ -23,7 +23,7 @@ a:hover {
 .m-header {
   height: 57px;
   border-bottom: #afafab 1px solid;
-  background: #f2f3eb url(../images/bg.jpg) left no-repeat;
+  background: #f2f3eb url(https://cdn.jsdelivr.net/gh/zmuv188/zm/statics/img/bg.jpg) left no-repeat;
   margin-bottom: 8px;
 }
 .m-header .logo-img {
