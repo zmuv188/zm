@@ -95,6 +95,7 @@ var stui = {
 			if(lazyswitch==1){
 				$(".lazyload").lazyload({
 					effect: "fadeIn",
+					threshold: 100,
 					failurelimit: 1,
 					skip_invisible: false
 				});
