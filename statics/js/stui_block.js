@@ -95,9 +95,9 @@ var stui = {
 			if(lazyswitch==1){
 				$(".lazyload").lazyload({
 					effect: "fadeIn",
-					threshold: 200,
-					failurelimit: 15,
-					skip_invisible: false
+				        threshold: 200,
+				        failure_limit : 1,
+				        skip_invisible : false,
 				});
 			}else{				
 				$(".lazyload").each(function(){
