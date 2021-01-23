@@ -86,7 +86,7 @@ a:hover{ color: #FF9900;}
 .stui-screen__list li.active a{ background-color: #FF9900; color: #FFFFFF;}
 
 /* playlist */
-.stui-content__playlist li a{ border: 1px solid #EEEEEE;}
+.stui-content__playlist li a{ border: 1px solid #155faa;}
 .stui-content__playlist li a:hover,.stui-content__playlist li.active a{ border: 1px solid #FF9900; background-color: #FF9900; color: #FFFFFF;}
 
 /* player */
