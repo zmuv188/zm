@@ -2,7 +2,7 @@
 		var orderBy = $(this).attr("data-order");
 		if (orderBy == "asc") {
 			$(this).attr("data-order", "desc");
-			$(this).html('<i class="icon icon-sort-by-order"></i>&nbsp;顺序')
+			$(this).html('<i class="icon icon-sort-by-order"></i>&nbsp;正序')
 		} else {
 			$(this).attr("data-order", "asc");
 			$(this).html('<i class="icon icon-sort-by-order-alt"></i>&nbsp;倒序')
