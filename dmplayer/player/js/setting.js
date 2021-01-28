@@ -124,6 +124,9 @@ var YZM = {
 		YZM.dp.on("loadedmetadata", function() {
 			YZM.loadedmetadataHandler();
 		});
+		YZM.dp.on('fullscreen',function(){       if(/Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                screen.orientation.lock('landscape');       }
+                });
 		YZM.dp.on("ended", function() {
 			YZM.endedHandler();
 		});
