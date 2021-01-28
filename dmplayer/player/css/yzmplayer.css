@@ -2298,7 +2298,7 @@ dl {
 }
 
 .yzmplayer-playing .yzmplayer-showing {
-	/* display: none!important; */
+	display: none!important; 
 	opacity: 0;
 	-webkit-transform: scale(1.5);
 	transform: scale(1.5);
