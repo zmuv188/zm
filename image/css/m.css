@@ -3,7 +3,7 @@
 *html iframe,*html frame{ overflow:auto;}
 *html frameset{ overflow:hidden;}
 *::-moz-selection{color:#FFF;background:#8EC61D;}::selection{background:#8EC61D;color:#FFF;}
-html{min-width: 300px;max-width: 640px;margin: 0 auto !important;position: relative;}
+html{min-width: 300px;max-width: 960px;margin: 0 auto !important;position: relative;}
 body{font-family:'Microsoft YaHei'; background:#EDEDED; font-size:16px; color:#666;}
 body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,tr{ font-weight:normal; margin:0; padding:0;}
 input,select,button{ font-size:16px; vertical-align:middle;}textarea,input{ word-wrap:break-word; word-break:break-all; padding:0px;}
