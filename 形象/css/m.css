@@ -32,15 +32,12 @@ nav .search{height: 35px;width: 90%;border: 1px solid #e0e0e0;margin: 10px auto;
 nav .search .ipt{width: 75%;float: left;background:transparent none repeat scroll 0 0;line-height: 35px;padding-left: 1%;font-size: 14px;outline: none;border: 0;font-family:'Microsoft YaHei';text-indent: 6px;height: 35px;}
 nav .search button{background: url(../img/icon-search.png) no-repeat scroll 85% center;width: 18%;float: right;height: 35px;border: 0}
 
-.slide{max-width: 640px;max-height: 350px;overflow: hidden;margin: 5px auto}
-.slide img{height: 180px;width: 100%}
-
 .m-box{background: #fff;border-bottom:1px solid #ccc;padding: 1% 4%;overflow: hidden;border-top:5px solid #EBEBEB;}
 .m-box .hd{border: 0;background: url(../img/module_hd.png) repeat-x 0 22px;height: 40px;line-height: 40px;overflow: hidden;}
 .m-box .hd h3{float: none;color: #222;border-left: 4px solid #8ec61d;display: inline;position: relative;background: #fff;font-size: 18px;padding: 0 10px}
 .m-box .hd h3 a{font-size: 18px;}
 .m-box .bd{padding: 0;margin: 0;}
-.m-box .bd li{height: 35px;line-height: 35px;overflow: hidden;border-bottom: 1px dotted #bbb;background: url(../img/list-icon.gif) 0 12px no-repeat;padding:0 15px;white-space:nowrap;text-overflow:ellipsis;}
+.m-box .bd li{height: 35px;line-height: 35px;overflow: hidden;border-bottom: 2px dotted #bbb;white-space:nowrap;text-overflow:ellipsis;}
 .m-box .bd li span{float: right;color: #999;font-size: 12px}
 .m-box .bd a.more{color:#575757;text-align: center;display: block;height: 35px;line-height: 35px;border: 1px solid #ddd;background: #f1f1f1;margin: 10px 0;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;}
 .m-box .bd .toppic{margin: 5px 0;}
@@ -51,11 +48,11 @@ nav .search button{background: url(../img/icon-search.png) no-repeat scroll 85% 
 .article-list .hd h3{float: none;color: #222;border-left: 4px solid #8ec61d;display: inline;position: relative;background: #fff;font-size: 18px;padding: 0 10px}
 .article-list .hd h3 a{font-size: 18px;}
 .article-list .bd span{float: right;font-size: 12px;color: #999}
-.article-list .bd h1{width: 96%;float: left;height: 30px;line-height: 28px;white-space: nowrap;text-overflow: ellipsis;display: block;overflow: hidden;background: url(../img/list-icon.gif) 0 12px no-repeat;padding-left: 15px;}
-.article-list dd{margin: 0 auto 6px;border-bottom: 1px dashed #ccc}
+.article-list .bd h1{width: 100%;float: left;height: 30px;line-height: 28px;white-space: nowrap;text-overflow: ellipsis;display: block;overflow: hidden;}
+.article-list dd{margin: 0 auto 6px;border-bottom: 2px dashed #ccc}
 .article-list .bd h1 a{font-size:17px;font-weight: bold;color: #8EC61D;}
 .article-list .bd p{line-height: 22px;color: #666;font-size: 14px;margin: 5px auto 10px}
-.article-list .pages{width: 96%;padding: 0 2%;padding-top: 15px;height: 45px;position: relative;overflow: hidden;clear: both;background: #fff;}
+.article-list .pages{width: 100%;padding: 0 2%;padding-top: 15px;height: 45px;position: relative;overflow: hidden;clear: both;background: #fff;}
 .article-list .pages .up{width: 44%;float: left;text-align: center;border: 1px solid #cbcbcb;height: 31px;line-height: 31px;padding: 0 2%;background: #f9f9f9}
 .article-list .pages .down{width: 44%;float: right;text-align: center;border: 1px solid #cbcbcb;height: 31px;line-height: 31px;padding: 0 2%;background: #f9f9f9}
 .article-list .pages .rest{width: 40%;position: absolute;left: 50%;margin-left: -21%;top:15px;text-align: center;border: 1px solid #cbcbcb;padding: 0 2px;height: 31px;line-height: 31px;background: #f9f9f9;display: block;border-radius: 3px;}
@@ -72,23 +69,7 @@ nav .search button{background: url(../img/icon-search.png) no-repeat scroll 85% 
 .viewbox .viewmore{margin: 0 auto;border: 1px solid #ddd;border-radius: 4px;text-align: center;-moz-border-radius: 4px;-webkit-border-radius: 4px;-o-border-radius: 4px;}
 .viewbox .viewmore a{font-size: 16px;display: block;line-height: 32px;line-height: 32px;}
 
-#bdshare{padding-top: 10px;}
-#bdshare a{background:url(../img/bd-icon.png);}
-#bdshare .bds_more{width: 36px;height: 36px;background-position: 0 0;}
-#bdshare .bds_qzone{width: 36px;height: 36px;background-position: 0 -287px;}
-#bdshare .bds_tsina{width: 36px;height: 36px;background-position: 0 -36px;}
-#bdshare .bds_tqq{width: 36px;height: 36px;background-position: 0 -72px;}
-#bdshare .bds_weixin{width: 36px;height: 35px;background-position: 0 -144px;}
-#bdshare .bds_sqq{width: 36px;height: 36px;background-position: 0 -108px;}
-
-.a-prev-next{display: block;width: 100%;clip: both;overflow: hidden;margin-bottom: 5px;}
-.a-prev-next a{display: block;width: 46%;height: 40px;line-height: 40px;background: #fff;border: 1px solid #d8d8d8;overflow: hidden;text-align: center;border-radius: 4px;-moz-border-radius: 3px;-webkit-border-radius: 3px;-o-border-radius: 3px;}
-.a-prev-next .prev{float: left;margin-left: 2%;}
-.a-prev-next .next{float: right;margin-right: 2%;}
-
 footer{width:100%;background: #8EC61D}
-footer .lzi3{width: 100%;height: 34px;border-top:1px solid #7CB21C;box-shadow:0 3px 5px #81B31A;}
-footer .lzi3 a{font-size: 14px;color: #fff;display: block;width: 25%;line-height: 34px;float: left;text-align: center;background: url(../img/bg-line.gif) right top repeat-y}
 footer .copyright{padding: 10px 0;line-height: 2.2em;overflow: hidden;text-align: center;color: #fff;font-size: 14px;}
 
 #back-to-top{position: fixed;bottom: 2%;right: 2%;z-index: 9999999;display: none;}
